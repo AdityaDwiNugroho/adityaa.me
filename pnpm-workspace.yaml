@@ -1,0 +1,19 @@
+packages: []
+
+catalogs:
+  build:
+    '@vitejs/plugin-vue': ^5.2.3
+    markdown-it": ^14.1.0
+  dev:
+    eslint: ^9.22.0
+  frontend:
+    pinia: ^3.0.1
+    vue: ^3.5.13
+    vue-router: ^4.5.0
+  types:
+    '@types/node': ^22.13.14
+onlyBuiltDependencies:
+  - esbuild
+  - exifreader
+  - sharp
+  - simple-git-hooks
